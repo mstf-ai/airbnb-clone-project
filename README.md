@@ -133,4 +133,23 @@ To ensure a consistent, reusable, and scalable design, the Airbnb Clone will ado
 - **Consistency:** Ensures uniform design and behavior across the app.  
 - **Scalability:** New features can be added easily by extending existing patterns.  
 - **Maintainability:** Isolating UI elements makes debugging and updating simpler.  
+---
+Based on common software development team structures and best practices.
+> **Note:** On a small/student project, one person may wear multiple hats (e.g., PO + PM + Dev + QA). Roles above describe responsibilities rather than headcount.
+## 👥 Team Roles
 
+This project follows a clear division of responsibilities to keep delivery smooth and quality high.
+
+| Role | What They Do | How They Contribute |
+|---|---|---|
+| **Product Owner** | Owns the product vision, prioritizes the backlog, clarifies requirements and acceptance criteria. | Ensures the team builds the highest-value features first and stays aligned with user needs. |
+| **Scrum Master** | Facilitates Agile ceremonies, removes impediments, coaches the team on Scrum. | Improves flow, focus, and continuous improvement. |
+| **Project Manager** | Plans timelines/scope, coordinates stakeholders, manages risks and communications. | Keeps the project on schedule and within scope. |
+| **Software Architect** | Defines system architecture, tech choices, and cross-cutting concerns (security, scalability). | Provides a coherent technical blueprint that reduces rework. |
+| **Backend Developer** | Implements server-side logic, APIs, integrations, and business rules; ensures performance and security. | Powers core functionality and reliable data flows. |
+| **Frontend Developer** | Builds the UI in HTML/CSS/JS (and/or a framework), integrates with APIs, ensures responsiveness and accessibility. | Delivers an intuitive, performant user experience. |
+| **Database Administrator (DBA)** | Designs schemas, manages migrations, backups, indexing, and data security. | Guarantees data integrity, availability, and query performance. |
+| **UI/UX Designer** | Produces user flows, wireframes, mockups, and prototypes; defines visual styles and interactions. | Improves usability and consistency, reducing friction for users. |
+| **QA / Test Engineer** | Plans and executes test strategies (unit, integration, E2E), regression, and automation; tracks defects. | Prevents bugs from reaching users and safeguards quality. |
+| **DevOps Engineer** | Sets up CI/CD, infrastructure as code, monitoring/logging, and secure deployments. | Enables fast, reliable releases and operational stability. |
+| **Business Analyst** | Elicits/clarifies requirements, documents processes, aligns business goals with technical solutions. | Reduces ambiguity and ensures features meet real needs. |
