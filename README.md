@@ -153,3 +153,25 @@ This project follows a clear division of responsibilities to keep delivery smoot
 | **QA / Test Engineer** | Plans and executes test strategies (unit, integration, E2E), regression, and automation; tracks defects. | Prevents bugs from reaching users and safeguards quality. |
 | **DevOps Engineer** | Sets up CI/CD, infrastructure as code, monitoring/logging, and secure deployments. | Enables fast, reliable releases and operational stability. |
 | **Business Analyst** | Elicits/clarifies requirements, documents processes, aligns business goals with technical solutions. | Reduces ambiguity and ensures features meet real needs. |
+---
+## 🛠️ Technology Stack
+
+This project uses a modern stack to build a scalable, secure, and feature-rich Airbnb Clone.
+
+| Technology | Purpose in Project |
+|------------|--------------------|
+| **Django** | A high-level Python web framework used to build the backend, define business logic, and expose RESTful/GraphQL APIs. |
+| **Django REST Framework (DRF)** | Simplifies building robust REST APIs with authentication, serialization, and permission handling. |
+| **GraphQL** | Provides a flexible query language for APIs, allowing clients to request only the data they need. |
+| **PostgreSQL** | A powerful open-source relational database for storing listings, users, bookings, and transactions. |
+| **SQLite** | Used locally during development for fast setup and testing before moving to PostgreSQL in production. |
+| **HTML5 / CSS3 / JavaScript (ES6+)** | Core technologies for building and styling the frontend user interface. |
+| **React.js** | A JavaScript library for building reusable, dynamic, and interactive UI components. |
+| **Bootstrap / Tailwind CSS** | Utility-first CSS frameworks to create responsive, modern designs quickly. |
+| **Redis** | In-memory data store used for caching and improving performance (e.g., search, session storage). |
+| **Celery** | Handles background jobs and asynchronous tasks such as sending emails and notifications. |
+| **Docker** | Provides containerization for consistent development and deployment environments. |
+| **NGINX** | A high-performance web server acting as a reverse proxy and load balancer for handling client requests. |
+| **Gunicorn** | Python WSGI HTTP server used to serve the Django application in production. |
+| **Git & GitHub** | Version control system for tracking code changes and enabling collaboration. |
+| **Postman** | API testing tool for verifying endpoints and ensuring API reliability. |
