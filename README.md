@@ -273,3 +273,33 @@ Users can search for properties by location, price, availability, and other crit
 
 ### 7. Admin Dashboard  
 Admins oversee the platform by managing users, properties, and bookings. This ensures quality control, security, and the smooth operation of the system.  
+---
+## 🔒 API Security
+
+Ensuring API security is critical for protecting user data, maintaining trust, and preventing unauthorized access. The following security measures will be implemented in the backend APIs of the Airbnb Clone project:
+
+### 1. Authentication  
+Only verified users can access the system through secure login mechanisms (e.g., JWT or OAuth).  
+**Why?** Prevents unauthorized access and ensures that only legitimate users interact with the platform.  
+
+### 2. Authorization  
+Role-based access control (RBAC) will restrict actions based on user roles (guest, host, admin).  
+**Why?** Ensures that users can only perform actions they are permitted to (e.g., only hosts can add properties, only admins can remove users).  
+
+### 3. Data Encryption  
+Sensitive data (such as passwords and payment details) will be encrypted both in transit (HTTPS/SSL) and at rest.  
+**Why?** Protects user credentials and financial information from breaches or leaks.  
+
+### 4. Rate Limiting & Throttling  
+APIs will enforce request limits to prevent abuse, brute-force attacks, and denial-of-service (DoS) attempts.  
+**Why?** Maintains system performance and protects against malicious activity.  
+
+### 5. Input Validation & Sanitization  
+All inputs will be validated and sanitized to prevent SQL injection, XSS, and other injection attacks.  
+**Why?** Ensures data integrity and shields the application from common vulnerabilities.  
+
+### 6. Secure Payments Handling  
+All payment-related requests will comply with PCI-DSS standards and use trusted third-party payment gateways.  
+**Why?** Protects financial transactions and builds user trust in the platform.  
+
+By implementing these measures, the Airbnb Clone ensures the safety of its users, properties, and transactions, making the platform reliable and trustworthy.  
