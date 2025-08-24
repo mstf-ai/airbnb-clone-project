@@ -82,4 +82,27 @@ Identifying design properties in a mockup is essential because it:
 - Saves time by reducing guesswork during implementation.  
 - Strengthens brand identity by following a clear style guide.  
 - Improves collaboration between designers and developers.  
+---
+## 👥 Project Roles and Responsibilities
+
+To ensure smooth collaboration and successful delivery of the Airbnb Clone Project, the following roles and responsibilities are defined:
+
+| **Role**             | **Key Responsibilities** |
+|-----------------------|---------------------------|
+| **Project Manager**   | Oversees the entire project lifecycle, coordinates between teams, manages deadlines, and ensures goals are met. |
+| **Product Owner**     | Defines the product vision, prioritizes features, manages the product backlog, and ensures the final product meets user needs. |
+| **Scrum Master**      | Facilitates Agile processes, removes obstacles, ensures team adherence to Scrum practices, and supports continuous improvement. |
+| **Frontend Developers** | Implement the user interface, ensure responsiveness, integrate APIs with the frontend, and create accessible, user-friendly experiences. |
+| **Backend Developers** | Build and maintain the server-side logic, manage databases, develop APIs, ensure scalability and performance. |
+| **Designers (UI/UX)** | Create wireframes, prototypes, and mockups, define the visual identity, and ensure usability and accessibility across the platform. |
+| **QA/Testers**        | Test features, report bugs, perform regression testing, validate design implementation, and ensure overall quality assurance. |
+| **DevOps Engineers**  | Manage CI/CD pipelines, deployment, monitoring, and scaling of applications, ensuring reliability and security. |
+
+---
+
+### ✨ How Each Role Contributes to Success
+- **Alignment:** Ensures every team member has a clear purpose.  
+- **Efficiency:** Avoids overlapping tasks and improves workflow.  
+- **Quality:** Distributes accountability for performance, usability, and security.  
+- **Agility:** Supports iteration and fast delivery by leveraging cross-functional roles.  
 
