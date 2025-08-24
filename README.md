@@ -248,3 +248,28 @@ The database is designed to handle core Airbnb-like functionality, focusing on s
 - A **Property** can have many **Reviews**, each written by a **User**.  
 
 This structure ensures flexibility while keeping data consistent across users, hosts, bookings, and payments.
+---
+## ✨ Feature Breakdown
+
+The Airbnb Clone project is built around core features that replicate essential Airbnb functionality. Each feature plays a role in ensuring smooth interaction between guests and hosts.  
+
+### 1. User Management  
+Allows users to sign up, log in, and manage their profiles securely. Roles (guest, host, admin) determine access and functionality, ensuring a personalized experience.  
+
+### 2. Property Management  
+Hosts can list properties by adding details such as title, description, location, price, and images. This feature enables property owners to attract potential guests and manage their listings.  
+
+### 3. Booking System  
+Guests can search, select, and book available properties for specific dates. The system ensures availability, prevents double-booking, and handles booking statuses like pending, confirmed, or cancelled.  
+
+### 4. Reviews and Ratings  
+Guests can leave reviews and ratings for properties they’ve stayed at. This feature builds trust in the platform by allowing users to make informed decisions based on feedback.  
+
+### 5. Payments  
+Supports secure payment processing tied to bookings. This ensures smooth transactions between guests and hosts, with support for multiple payment methods and statuses.  
+
+### 6. Search and Filtering  
+Users can search for properties by location, price, availability, and other criteria. This makes it easy to discover suitable properties quickly.  
+
+### 7. Admin Dashboard  
+Admins oversee the platform by managing users, properties, and bookings. This ensures quality control, security, and the smooth operation of the system.  
