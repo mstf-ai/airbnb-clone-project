@@ -105,4 +105,32 @@ To ensure smooth collaboration and successful delivery of the Airbnb Clone Proje
 - **Efficiency:** Avoids overlapping tasks and improves workflow.  
 - **Quality:** Distributes accountability for performance, usability, and security.  
 - **Agility:** Supports iteration and fast delivery by leveraging cross-functional roles.  
+---
+## 🧩 UI Component Patterns
+
+To ensure a consistent, reusable, and scalable design, the Airbnb Clone will adopt a **component-based approach**. Below are the key UI components we plan to create:
+
+### 🔹 Core Components
+1. **Navbar (Navigation Bar)**  
+   - Provides quick access to main sections (Home, Listings, Checkout, Profile).  
+   - Includes logo, search bar, and user account menu.  
+   - Stays fixed at the top for easy navigation.  
+
+2. **Property Card**  
+   - Displays essential details about a property (image, title, price per night, rating).  
+   - Allows users to preview properties at a glance.  
+   - Responsive design to ensure consistency across devices.  
+
+3. **Footer**  
+   - Contains links to key information (About, Contact, Help, Terms & Privacy).  
+   - May include social media icons and newsletter subscription.  
+   - Maintains branding consistency at the bottom of all pages.  
+
+---
+
+### 🎯 Importance of Component Patterns
+- **Reusability:** Components can be reused across multiple pages, reducing redundancy.  
+- **Consistency:** Ensures uniform design and behavior across the app.  
+- **Scalability:** New features can be added easily by extending existing patterns.  
+- **Maintainability:** Isolating UI elements makes debugging and updating simpler.  
 
