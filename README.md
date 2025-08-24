@@ -175,3 +175,76 @@ This project uses a modern stack to build a scalable, secure, and feature-rich A
 | **Gunicorn** | Python WSGI HTTP server used to serve the Django application in production. |
 | **Git & GitHub** | Version control system for tracking code changes and enabling collaboration. |
 | **Postman** | API testing tool for verifying endpoints and ensuring API reliability. |
+---
+## 🗄️ Database Design
+
+The database is designed to handle core Airbnb-like functionality, focusing on scalability and relationships between entities.  
+
+### Key Entities and Fields  
+
+1. **Users**  
+   - `id` (Primary Key)  
+   - `name`  
+   - `email` (unique)  
+   - `password_hash`  
+   - `role` (guest, host, admin)  
+
+   **Notes:** A user can act as both a guest and a host.  
+
+---
+
+2. **Properties**  
+   - `id` (Primary Key)  
+   - `user_id` (Foreign Key → Users)  
+   - `title`  
+   - `description`  
+   - `location`  
+   - `price_per_night`  
+
+   **Notes:** Each property is owned by a user (host).  
+
+---
+
+3. **Bookings**  
+   - `id` (Primary Key)  
+   - `user_id` (Foreign Key → Users)  
+   - `property_id` (Foreign Key → Properties)  
+   - `check_in_date`  
+   - `check_out_date`  
+   - `status` (pending, confirmed, cancelled)  
+
+   **Notes:** A booking belongs to one property and is made by one user (guest).  
+
+---
+
+4. **Reviews**  
+   - `id` (Primary Key)  
+   - `user_id` (Foreign Key → Users)  
+   - `property_id` (Foreign Key → Properties)  
+   - `rating` (1–5)  
+   - `comment`  
+
+   **Notes:** A user can leave multiple reviews, but only one per property per booking.  
+
+---
+
+5. **Payments**  
+   - `id` (Primary Key)  
+   - `booking_id` (Foreign Key → Bookings)  
+   - `amount`  
+   - `payment_method` (credit card, PayPal, etc.)  
+   - `status` (pending, completed, failed)  
+
+   **Notes:** Each payment is tied to a booking.  
+
+---
+
+### Entity Relationships  
+
+- A **User** can host multiple **Properties**.  
+- A **User** can make multiple **Bookings**.  
+- A **Property** can have many **Bookings**.  
+- A **Booking** generates exactly one **Payment**.  
+- A **Property** can have many **Reviews**, each written by a **User**.  
+
+This structure ensures flexibility while keeping data consistent across users, hosts, bookings, and payments.
